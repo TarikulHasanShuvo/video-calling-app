@@ -5,8 +5,8 @@ import Peer from 'simple-peer';
 const SocketContext = createContext();
 
 // const socket = io('http://localhost:5000');
-// const socket = io('https://warm-wildwood-81069.herokuapp.com');
-const socket = io('http://localhost:5000');
+// const socket = io('https://shuvo.biswasoxygen.com/');
+const socket = io('http://157.245.121.156:5000');
 
 const ContextProvider = ({ children }) => {
   const [callAccepted, setCallAccepted] = useState(false);
